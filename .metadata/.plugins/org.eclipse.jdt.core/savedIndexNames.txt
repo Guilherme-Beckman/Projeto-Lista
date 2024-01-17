@@ -3,7 +3,7 @@ INDEX VERSION 1.134+/home/beckman/Documents/Projeto-lista/.metadata/.plugins/org
 4226568603.index
 3826213196.index
 1269106577.index
-1446571848.index
+1610631624.index
 4199359383.index
 2993126178.index
 1355328902.index
@@ -26,11 +26,11 @@ INDEX VERSION 1.134+/home/beckman/Documents/Projeto-lista/.metadata/.plugins/org
 3506092575.index
 1269725247.index
 3030784589.index
-495767510.index
-900073443.index
-546357468.index
-791739862.index
 3304899255.index
+791739862.index
+546357468.index
+900073443.index
+495767510.index
 4182577552.index
 1307639898.index
 3903169776.index
@@ -94,4 +94,4 @@ INDEX VERSION 1.134+/home/beckman/Documents/Projeto-lista/.metadata/.plugins/org
 4178823819.index
 2345885239.index
 1192983622.index
-1610631624.index
+1446571848.index
