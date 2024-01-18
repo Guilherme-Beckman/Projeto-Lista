@@ -1,5 +1,9 @@
 package com.beckman.repositories;
 
-public interface TarefaRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.beckman.model.Tarefa;
+
+public interface TarefaRepository extends JpaRepository<Tarefa, Long>{
 
 }

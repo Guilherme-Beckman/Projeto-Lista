@@ -1,4 +1,4 @@
-CREATE TABLE user (
+CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(255),
     email VARCHAR(255),
@@ -8,7 +8,7 @@ CREATE TABLE user (
 CREATE TABLE lista (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(255),
-    user_id INT REFERENCES user(id)
+    users_id INT REFERENCES users(id)
 );
 
 CREATE TABLE tarefa (
