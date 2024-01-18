@@ -22,17 +22,17 @@ private String nome;
 @OneToMany(mappedBy="lista", cascade= CascadeType.ALL)
 @Column(name ="Tarefa")
 private List<Tarefa> tarefas;
-@JoinColumn(name= "user_id")
-private User user;
+@JoinColumn(name= "users_id")
+private Users users;
 public Lista() {
 	
 }
 
-public Lista(Long id, String nome, List<Tarefa> tarefas,User user) {
+public Lista(Long id, String nome, List<Tarefa> tarefas,Users users) {
 	this.id = id;
 	this.nome = nome;
 	this.tarefas = tarefas; 
-	this.user = user;
+	this.users = users;
 }
 public Long getId() {
 	return id;
@@ -53,12 +53,12 @@ public void setTarefas(List<Tarefa> tarefas) {
 	this.tarefas = tarefas;
 }
 
-public User getUser() {
-	return user;
+public Users getUsers() {
+	return users;
 }
 
-public void setUser(User user) {
-	this.user = user;
+public void setUser(Users users) {
+	this.users = users;
 }
 
 
