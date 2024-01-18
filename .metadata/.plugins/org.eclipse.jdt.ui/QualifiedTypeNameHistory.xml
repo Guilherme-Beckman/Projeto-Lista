@@ -4,9 +4,21 @@
     <fullyQualifiedTypeName name="jakarta.persistence.CascadeType"/>
     <fullyQualifiedTypeName name="com.beckman.model.User"/>
     <fullyQualifiedTypeName name="com.beckman.repositories.UsersRepository"/>
-    <fullyQualifiedTypeName name="org.apache.catalina.User"/>
-    <fullyQualifiedTypeName name="com.beckman.repositories.ListaRepository"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.beckman.repositories.ListaRepository"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.EntityNotFoundException"/>
+    <fullyQualifiedTypeName name="com.beckman.model.Tarefa"/>
+    <fullyQualifiedTypeName name="com.beckman.repositories.TarefaRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="com.beckman.services.UserService"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.web.service.annotation.GetExchange"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+    <fullyQualifiedTypeName name="org.apache.catalina.User"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

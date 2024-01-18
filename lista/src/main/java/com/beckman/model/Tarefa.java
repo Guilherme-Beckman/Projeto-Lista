@@ -29,6 +29,67 @@ private boolean finalizado;
 @JoinColumn(name= "lista_id")
 private Lista lista;
 
+public Tarefa() {
+	
+}
+
+public Tarefa(Long id, String nome, String descricao, LocalDateTime prazo, boolean finalizado, Lista lista) {
+	this.id = id;
+	this.nome = nome;
+	this.descricao = descricao;
+	this.prazo = prazo;
+	this.finalizado = finalizado;
+	this.lista = lista;
+}
+
+public Long getId() {
+	return id;
+}
+
+public void setId(Long id) {
+	this.id = id;
+}
+
+public String getNome() {
+	return nome;
+}
+
+public void setNome(String nome) {
+	this.nome = nome;
+}
+
+public String getDescricao() {
+	return descricao;
+}
+
+public void setDescricao(String descricao) {
+	this.descricao = descricao;
+}
+
+public LocalDateTime getPrazo() {
+	return prazo;
+}
+
+public void setPrazo(LocalDateTime prazo) {
+	this.prazo = prazo;
+}
+
+public boolean isFinalizado() {
+	return finalizado;
+}
+
+public void setFinalizado(boolean finalizado) {
+	this.finalizado = finalizado;
+}
+
+public Lista getLista() {
+	return lista;
+}
+
+public void setLista(Lista lista) {
+	this.lista = lista;
+}
+
 
 
 }

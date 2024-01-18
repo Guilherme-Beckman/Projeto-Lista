@@ -6,6 +6,8 @@ import org.springframework.stereotype.Service;
 import com.beckman.model.Lista;
 import com.beckman.repositories.ListaRepository;
 
+import jakarta.persistence.EntityNotFoundException;
+
 @Service
 public class ListaService {
 private ListaRepository listaRepository;
@@ -55,5 +57,20 @@ public Long quantidadeDeListasByUserId(Long userId) {
 }
 public Lista saveLista(Lista lista) {
     return listaRepository.save(lista);
+}
+public Lista updateLista(Long id, Lista updatedList) {
+	Lista existingLista = listaRepository.findById(id).orElse(null);
+	if (existingLista==null) {
+		throw new EntityNotFoundException("Essa lista não existe");
+	}
+	existingLista.setNome(updatedList.getNome());
+	return listaRepository.save(existingLista);
+}
+public void deleteList(Long id) {
+	Lista existingLista = listaRepository.findById(id).orElse(null);
+	if (existingLista==null) {
+		throw new EntityNotFoundException("Essa lista não existe");		
+	}
+	listaRepository.deleteById(id);
 }
 }
