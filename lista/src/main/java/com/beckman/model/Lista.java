@@ -20,7 +20,6 @@ private Long id;
 @Column(name ="Nome")
 private String nome;
 @OneToMany(mappedBy="lista", cascade= CascadeType.ALL)
-@Column(name ="Tarefa")
 private List<Tarefa> tarefas;
 @JoinColumn(name= "users_id")
 private Users users;

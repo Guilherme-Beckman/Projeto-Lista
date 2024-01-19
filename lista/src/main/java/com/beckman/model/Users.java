@@ -23,7 +23,6 @@ public class Users {
 	@Column(name ="Senha")
 	private String senha;
 	@OneToMany(mappedBy = "user", cascade= CascadeType.ALL)
-	@Column (name ="Lista")
 	private List<Lista> lista;
 	
 	public Users() {
